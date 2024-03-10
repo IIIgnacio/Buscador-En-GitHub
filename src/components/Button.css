@@ -1,0 +1,13 @@
+#btn {
+  border: 3px solid;
+  padding: 20px 50px;
+  color: #9b6060;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: rgb(86, 72, 99);
+  box-shadow: 0 0 20px var(--color);
+  transform: scale(1.05);
+}
